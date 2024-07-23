@@ -1,0 +1,11 @@
+{
+  "name": "odin-recipes",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Nyanns/odin-recipes.git",
+  "author": "sandi <satrianindhita6@gmailcom>",
+  "license": "MIT",
+  "scripts": {
+    "start": "index.js"
+  }
+}
