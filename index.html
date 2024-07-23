@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Odin Recipes</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: auto;
+            margin: 0;
+            background-color: lavender;
+        }
+
+        header {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            height: 50vh;
+            text-align: center;
+            background-color: rgb(255, 239, 239);
+        }
+
+        nav {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+            background-color: mistyrose;
+            width: 100%;
+            height: 100%;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+        }
+
+        nav li {
+            margin: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: black;
+            font-size: 24px;
+            font-weight: bold;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 10px;
+            border: 2px solid black;
+            border-radius: 10px;
+            background-color: aliceblue;
+        }
+
+        nav a:hover {
+            color: rgb(255, 103, 103);
+        }
+
+        nav img {
+            width: 100%;
+            max-width: 400px;
+            height: auto;
+            border-radius: 10px;
+        }
+
+        @media (min-width: 768px) {
+            nav {
+                flex-direction: row;
+            }
+
+            nav ul {
+                flex-direction: row;
+            }
+
+            nav a {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>ODIN RECIPES</h1>
+    </header>
+    <nav>
+        <ul>
+            <li>
+                <a href="recipes/Udon.html" target="_self">
+                    <img src="images/udon.webp" alt="Udon">
+                    <br>
+                    Kimchi Udon Noodle Stir-Fry
+                    <span>&#x1F60D;&#x1F35C;</span>
+                </a>
+            </li>
+            <li>
+                <a href="recipes/Ramen.html" target="_self">
+                    <img src="images/ramen.webp" alt="Ramen">
+                    <br>
+                    Ramen Noodle Soup
+                    <span>&#x1F35C;&#x1F35C;</span>
+                </a>
+            </li>
+            <li>
+                <a href="recipes/Teriyaki.html" target="_self">
+                    <img src="images/teriyaki.webp" alt="Teriyaki">
+                    <br>
+                    Teriyaki Salmon
+                    <span>&#x1F363;&#x1F363;</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</body>
+
+</html>
